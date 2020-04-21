@@ -76,7 +76,7 @@
 body {background-color: black;}
 input[type=text] {
   background-color: white;
-  background-image: url('../components/searchicon.png');
+  background-image: url('~/components/searchicon.png');
     background-position: -1px 0px;
     background-repeat: no-repeat;
     padding-left: 30px;
