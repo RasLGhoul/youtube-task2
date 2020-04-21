@@ -1,0 +1,25 @@
+{
+  "name": "youtube-task",
+  "version": "1.0.0",
+  "description": "My flawless Nuxt.js project",
+  "author": "MostafaDesoky",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "build:gh-pages": "cross-env DEPLOY_ENV=master nuxt build",
+    "generate:gh-pages": "cross-env DEPLOY_ENV=master nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "cross-env": "^7.0.2",
+    "push-dir": "^0.4.1"
+  }
+}
