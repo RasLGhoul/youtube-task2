@@ -1,6 +1,6 @@
-# youtube-task-2
+# youtube-api-VueJs
 
-> My wicked Nuxt.js project
+> My attempt to implement youtube api and use it via VueJS/NuxtJs
 
 ## Build Setup
 
